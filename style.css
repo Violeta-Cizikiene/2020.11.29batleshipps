@@ -55,9 +55,9 @@ body {
 	transform: rotateY(180deg);
 }
 
-/*#winMessage {
+#winMessage {
 	color: rgb(128, 154, 240);
 	font-size: 50px;
 	display: none;
 	margin-left: 100PX;
-}*/
+}

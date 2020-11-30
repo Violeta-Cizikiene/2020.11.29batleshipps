@@ -176,6 +176,7 @@ function createCards() {
 	for (let x = 0; x < 1; x++) {
 		for (let search = 0; search < 1000; search++) {
 			let column = Math.floor(Math.random() * 10);
+			let row = Math.floor(Math.random() * 10);
 			let horizontal = Math.random() > 0.5;
 
 			if (horizontal) {
@@ -285,6 +286,7 @@ function createCards() {
 		}
 	}
 }
+
 
 createCards();
 
